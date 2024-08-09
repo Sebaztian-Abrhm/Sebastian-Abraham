@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Neuzeit;
+  src: url("Neuzeit-Grotesk-Bold.otf") format("opentype");
+}
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+li{
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: white;
+  color: black;
+}
+body{
+  font-family: Neuzeit;
+  color: white;
+  background-color: rgb(30, 30, 30);
+}
+p{    
+
+  margin: 0;
+  margin-left: 30;
+  margin-right: 30;
+}
+.texti
+{
+  text-align: center;
+}
+.circu{
+  border-radius: 50%  ;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.icons a{
+  margin: 0 10px;
+}
+
+input {
+  font-family: Neuzeit;
+  border-radius: 25px;
+  border: none;
+  box-sizing: 10px 10px;
+  padding: 10 10 10 10;
+  text-align: center;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border-color: white;
+  font-family: Neuzeit;
+  padding: 10px 20px 10px 20px; 
+  border-radius: 25px;
+  border: none;
+}
+button:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+input[type="email"] {
+  width: 200px;
+}
